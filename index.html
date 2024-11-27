@@ -36,7 +36,7 @@
 </nav>
 <section id="profile">
     <div class="section_pic-container">
-        <img src="./assets/02268-index.jpg" alt="Art Schu profile picture">
+        <img class="section_pic-container-img" src="./assets/02268-index.jpg" alt="Art Schu profile picture">
     </div>
     <div class="section_text">
         <p class="section_text-p1">Hello, i'm</p>
@@ -44,19 +44,19 @@
         <p class="section_text-p2">Frontend Developer</p>
         <div class="btn-container">
             <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/1.docx')">
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/1.docx')">
                 Dowland CV
             </button>
             <button
                     class="btn btn-color-1"
                     onclick="location.href='./#contact'">
-               Contact info
+                Contact info
             </button>
         </div>
         <div id="social-container">
             <img
-                    src="./assets/linkedin.png"
+                    src="./assets/linkedin_black_logo_icon_147114.png"
                     alt="My Linkedin profile"
                     class="icon"
                     onclick="location.href='https://ru.linkedin.com/'"
@@ -69,6 +69,49 @@
             >
         </div>
     </div>
+</section>
+<section id="about">
+    <p class="section_text-p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section_pic-container">
+            <img src="./assets/aboutme.png"
+                 alt="profile picture"
+                 class="about-pic"
+            />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/work-experience-icon.png"
+                         alt="experience icon"
+                         class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>1+ years <br/>Frontend Development</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/student-boy-icon.png"
+                         alt="Education icon"
+                         class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>IT-Incubator <br/> LernJavascript</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum.</p>
+            </div>
+        </div>
+    </div>
+    <img src="" alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./#experience'">
 </section>
 <script src="script.js"></script>
 </body>
