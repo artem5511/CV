@@ -3,8 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=wrap");
 
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -57,7 +57,7 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo{
+.logo {
     font-size: 2rem;
 }
 
@@ -126,8 +126,9 @@ a:hover {
 }
 
 .hamburger-icon.open span:nth-child(2) {
-   opacity: 0;
+    opacity: 0;
 }
+
 .hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px);
 }
@@ -139,6 +140,7 @@ a:hover {
 .hamburger-icon span:first-child {
     opacity: 1;
 }
+
 .hamburger-icon span:first-child {
     transform: none;
 }
@@ -165,12 +167,14 @@ section {
     gap: 5rem;
     height: 80vh;
 }
+
 .section_pic-container {
     display: flex;
     width: 400px;
     height: 400px;
     margin: auto 0;
 }
+
 .section_pic-container-img {
     border-radius: 30px;
 }
@@ -183,8 +187,9 @@ section {
 .section_text p {
     font-weight: 600;
 }
+
 .section_text-p1 {
- text-align: center;
+    text-align: center;
 }
 
 .section_text-p2 {
@@ -229,8 +234,9 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(53,53,53) 0.1rem solid;
+    border: rgb(53, 53, 53) 0.1rem solid;
 }
+
 .btn-color-1:hover,
 .btn-color-2:hover {
     cursor: pointer;
@@ -238,20 +244,20 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-   background: rgb(53,53,53);
+    background: rgb(53, 53, 53);
     color: white;
 }
 
 .btn-color-1:hover {
-    border: rgb(0,0,0);
+    border: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
-   background: none;
+    background: none;
 }
 
 .btn-color-2:hover {
-border: rgb(255,255,255) 0.1rem solid;
+    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
@@ -272,6 +278,42 @@ border: rgb(255,255,255) 0.1rem solid;
 
 .about-details-container {
     justify-content: center;
-flex-direction: column;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
 
